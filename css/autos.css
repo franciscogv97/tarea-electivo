@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+/* NAVBAR*/
+nav.navbar {
+    background-color: #000000; 
+    padding: 20px; 
+    top: 0; 
+    width: 100%; 
+  
+  }
+  
+  .navbar .container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .navbar .logo{
+    max-width: 200px;
+  }
+  
+  
+  .navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+  }
+  
+  .navbar .nav-links li {
+    display: inline-block;
+    margin-right: 30px;
+  
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  /**/
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+
+  .contenedor-cards {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cards se ajusten en varias filas si es necesario */
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+
+
+  .cardAT1 {
+    box-shadow: 3px 3px 15px grey;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 40%;
+    text-align: center;
+    
+  }
+
+  h2 {
+    font-size:30px;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: justify;
+    
+  }
+
+
+  .btn {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+  
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }

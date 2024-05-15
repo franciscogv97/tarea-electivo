@@ -1,0 +1,55 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    width: 300px;
+  }
+  
+  .card-header {
+    padding: 10px;
+  }
+  
+  .autor h1, .autor h3 {
+    margin: 20px 0;
+    
+
+    text-align: center;
+  }
+  
+
+h1:hover  {
+    color: rgb(4, 8, 235); 
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    
+  
+  }
+  .btn:hover {
+    background-color: #0056b3;
+    
+  }
+
+
+  .git {
+    margin-top: 50px;
+  }
+  

@@ -1,0 +1,219 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* NAVBAR*/
+nav.navbar {
+  background-color: #000000; 
+  padding: 20px;
+  top: 0; 
+  width: 100%;
+  
+}
+
+.navbar .container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  
+}
+
+.navbar .logo{
+  max-width: 200px;
+}
+
+
+.navbar .nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px; /* Alinea los enlaces a la izquierda */
+}
+
+.navbar .nav-links li {
+  display: inline-block;
+  margin-right: 30px;
+
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+/**/
+
+
+.contenedor-cards {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cards se ajusten en varias filas si es necesario */
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.card1, .cardAT1, .ardDescubre, .cardMasvendido {
+  box-shadow: 3px 3px 15px grey;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 40%;
+  text-align: center;
+  
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card1 img {
+  border-radius: 4%;
+}
+.Imagen41{
+  width: 30%;
+}
+
+.cardMasvendido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size:30px;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 40px;
+  
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/*COMENTARIOS*/
+
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cards se ajusten en varias filas si es necesario */
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding: 10px;
+  
+}
+.comentario1:hover, .comentario2:hover, .comentario3:hover {
+  background-color: #253749;
+}
+.comentario1:hover h3, .comentario1:hover p, 
+.comentario2:hover h3, .comentario2:hover p, 
+.comentario3:hover h3, .comentario3:hover p {
+  color: white; 
+}
+
+
+.comentario1 , .comentario2, .comentario3 {
+  box-shadow: 3px 3px 15px grey;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+  text-align: center;
+  
+}
+
+.comentario1 p , .comentario2 p , .comentario3 p {
+  font-style: italic;
+  font-family: Arial, sans-serif;
+}
+
+
+.img-persona {
+  float: right;
+  margin-left: 10px;
+  
+}
+
+/*REDES SOCIALES*/
+
+.barra-redes-sociales {
+  bottom: 0; 
+  width: 100%; 
+  background-color: #fff; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.barra-redes-sociales ul {
+  list-style: none; 
+
+}
+
+.barra-redes-sociales li {
+  display: inline-block;
+  margin-right: 30px; 
+}
+
+
+/*DESARROLLADOR*/
+.desarrollador {
+  background-color: black; 
+  padding: 8px; 
+ text-align: center;
+
+}
+
+.desarrollador a {
+  text-decoration: none;
+}
+
+.desarrollador li {
+  list-style: none;
+}
+
+.desarrollador h3 {
+  color: white; /* Cambia el color del texto a blanco */
+}
+.desarrollador h5 {
+  color: white; /* Cambia el color del texto a blanco */
+  font-style: italic;
+}
+
+.desarrollador:hover h3{
+  color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+  .contenedor-cards {
+    flex-direction:row; 
+    width: 100%;
+  }
+
+  .card1, .cardAT1, .ardDescubre, .cardMasvendido {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+  .comentario1 , .comentario2, .comentario3  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  }
